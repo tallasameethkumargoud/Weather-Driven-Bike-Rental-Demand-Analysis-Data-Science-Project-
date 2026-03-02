@@ -1,4 +1,3 @@
-# Weather-Driven-Bike-Rental-Demand-Analysis-Data-Science-Project-
 #  Weather-Driven Bike Rental Demand Analysis
 
 ##  Project Summary
