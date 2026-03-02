@@ -1,7 +1,7 @@
 # Weather-Driven-Bike-Rental-Demand-Analysis-Data-Science-Project-
-# 🚲 Weather-Driven Bike Rental Demand Analysis
+#  Weather-Driven Bike Rental Demand Analysis
 
-## 📌 Project Summary
+##  Project Summary
 
 This project investigates how weather conditions influence daily bike rental demand using the **UCI Bike Sharing Dataset**.  
 It was developed as part of the final project for **INFO6105 – Data Science Engineering Methods** at Northeastern University.
@@ -13,7 +13,7 @@ It was developed as part of the final project for **INFO6105 – Data Science En
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
 - **Source:** [UCI ML Repository – Bike Sharing Dataset](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset)  
 - **Size:** 731 daily records (2011–2012)
@@ -23,7 +23,7 @@ It was developed as part of the final project for **INFO6105 – Data Science En
   
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 - **Language:** R (v4.4.2)
 - **Libraries:**
@@ -37,15 +37,15 @@ It was developed as part of the final project for **INFO6105 – Data Science En
 
 ## ⚙️ How It Works
 
-### 1. 📦 Data Preprocessing
+### 1.  Data Preprocessing
 - Loaded `day.csv` and created a new label: `high_demand` (based on median of `cnt`)
 
-### 2. 📈 Modeling
+### 2.  Modeling
 - **Linear Regression** to predict `cnt`
 - **Logistic Regression** and **Decision Tree** to classify demand
 - Used **5-fold Cross-Validation** via `caret` for stability
 
-### 3. 📊 Visualization
+### 3.  Visualization
 - Temp vs Rentals
 - Humidity impact on High/Low demand
 - Rentals by Season & Weather
